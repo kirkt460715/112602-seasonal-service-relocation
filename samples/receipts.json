@@ -1,0 +1,23 @@
+[
+  {
+    "action": "line-fact",
+    "desk": "old-desk",
+    "ref": "town-8",
+    "delayed": true,
+    "evidence": {
+      "closed_at": 10,
+      "slot_released": true
+    }
+  },
+  {
+    "action": "site-acceptance",
+    "desk": "village-team",
+    "ref": "village-8",
+    "delayed": false,
+    "evidence": {
+      "wired": 10,
+      "usable": 14,
+      "customer_ack": null
+    }
+  }
+]

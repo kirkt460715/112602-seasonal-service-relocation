@@ -1,0 +1,35 @@
+{
+  "contract": "bb-8",
+  "sites": {
+    "town": {
+      "state": "active",
+      "node": "t7"
+    },
+    "village": {
+      "state": "pending",
+      "node": "v4",
+      "trunk_capacity": 1
+    }
+  },
+  "intent": {
+    "keep_old_until_new": true,
+    "permitted_overlap_days": 2,
+    "lead": "r-1",
+    "delegate": "r-2"
+  },
+  "reservations": [
+    {
+      "at": "v4",
+      "allocated": "bb-12",
+      "period": [
+        10,
+        12
+      ]
+    },
+    {
+      "at": "t7",
+      "application": "bb-19",
+      "no_commit_yet": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "sequence": 1,
+    "at": 7,
+    "source": "billing",
+    "facts": {
+      "requested_start": 10,
+      "desired_stop": 13
+    }
+  },
+  {
+    "sequence": 2,
+    "at": 10,
+    "source": "field",
+    "facts": {
+      "site": "village",
+      "state": "wired",
+      "usable": false
+    }
+  },
+  {
+    "sequence": 3,
+    "at": 11,
+    "source": "old-desk",
+    "facts": {
+      "site": "town",
+      "state": "disabled",
+      "observed_at": 10
+    }
+  },
+  {
+    "sequence": 4,
+    "at": 13,
+    "source": "user",
+    "facts": {
+      "cancel_move": true
+    }
+  },
+  {
+    "sequence": 5,
+    "at": 17,
+    "source": "field",
+    "facts": {
+      "site": "village",
+      "state": "usable",
+      "observed_at": 14
+    }
+  }
+]
